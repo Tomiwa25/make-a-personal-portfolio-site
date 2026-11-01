@@ -4,5 +4,18 @@
   "createdAt": "2026-11-01T16:30:20.864Z",
   "filename": "5a847db3-4d9a-4d4b-a21d-78c2adadea5c.json",
   "geminiStarted": false,
-  "messages": []
+  "messages": [
+    {
+      "id": "9ba299a5-46f1-4eb0-b910-460bdab67639",
+      "role": "user",
+      "content": "Oh, Montegravity, are you listening to me?  Based on what I need now.  I need in a portfolio.  I'm a software engineer.  So I need a portfolio or portfolio website whereby I can send with my CV so people can know what I did, what I've been doing.  So those get into it.  Any questions you need, just ask out, be able to provide them for you.",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-01T16:32:11.036Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
