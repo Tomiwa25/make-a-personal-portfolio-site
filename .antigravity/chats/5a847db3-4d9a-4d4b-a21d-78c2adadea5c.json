@@ -52,6 +52,18 @@
       "created_at": "2026-11-01T16:49:51.617Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "04e02fba-73b4-4807-b9d8-eba5f18b7260",
+      "role": "agent",
+      "content": "I have updated your portfolio with your real profile, GitHub avatar, links, and projects!\n\n### 🌐 View Your Live Portfolio\n👉 **[Open Your Updated Live Site](https://antigravity.luch.dev/site/8d414720-f587-427d-9412-d7e7ad698f0e/11f6642657ceb96fb7a34cab/)**\n\n---\n\n### 📄 How to Add Your CV Information\n\nHere are the **two easiest ways** to provide your CV:\n\n#### 1. Paste your CV text directly into this chat *(Fastest & Recommended)*\n- Open your CV document (PDF, Word, or Google Doc).\n- Select and copy the text (Work Experience, Education, Skills, Achievements, Projects).\n- Paste it right here in your reply!\n- I will parse every bullet point and update your live portfolio, career timeline, and ATS-ready printable resume automatically.\n\n#### 2. Provide a PDF file\n- If you have a file named `resume.pdf` or `cv.pdf`, you can upload it into the project workspace.\n- The **\"Review CV / Resume\"** button will then directly download or open your PDF file for recruiters.\n\n---\n\n### ⚡ What Has Been Updated:\n- **Name & Title**: **Muhydeen Ayandola** — *Full Stack Software Engineer*\n- **Contact & Socials**: Connected your email (`tomiwadennie25@gmail.com`), [LinkedIn](https://www.linkedin.com/in/muhydeen-ayandola), and [GitHub](https://github.com/Tomiwa25) with your real GitHub profile picture.\n- **Featured Repositories**: Integrated your real projects from GitHub:\n  - **Vroom-Style** *(E-Commerce Platform with TypeScript & React)*\n  - **Syncord** *(Secure Core Banking & Ledger System with Node.js & PostgreSQL)*\n  - **NewsSphere-AI** *(Intelligent Content Aggregator)*\n  - **Viek** *(Client Relationship & Operations Management CRM)*\n\nFeel free to paste the text of your CV below whenever you're ready!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "54b7d14a-9bbb-4516-93e6-a9620c9b87f9",
+      "created_at": "2026-11-01T16:51:22.326Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
