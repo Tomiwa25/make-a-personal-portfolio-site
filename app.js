@@ -8,14 +8,18 @@
   // 1. DATA INITIALIZATION & OVERRIDES
   let activeData = { ...window.portfolioData };
 
-  // Load custom overrides from localStorage if present
+  // Load custom overrides from localStorage if present (ignoring old placeholder data)
   try {
     const savedOverrides = localStorage.getItem('portfolio_user_customizations');
     if (savedOverrides) {
       const parsed = JSON.parse(savedOverrides);
-      activeData.personal = { ...activeData.personal, ...parsed.personal };
-      if (parsed.personal && parsed.personal.bioFirstPara) {
-        activeData.personal.bio[0] = parsed.personal.bioFirstPara;
+      if (parsed.personal && parsed.personal.name && !parsed.personal.name.includes("Alex Morgan")) {
+        activeData.personal = { ...activeData.personal, ...parsed.personal };
+        if (parsed.personal.bioFirstPara) {
+          activeData.personal.bio[0] = parsed.personal.bioFirstPara;
+        }
+      } else {
+        localStorage.removeItem('portfolio_user_customizations');
       }
     }
   } catch (err) {
